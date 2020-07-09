@@ -9,3 +9,6 @@ def determinaraprobado(promedio):
         resultado="El alumno está desaprobado."
         
     return resultado
+
+promedio=float(input("Ingrese el promedio del alumno: "))
+print(determinaraprobado(promedio))
